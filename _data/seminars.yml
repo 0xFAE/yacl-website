@@ -61,6 +61,8 @@ upcoming:
       Lookup arguments are a key technique in SNARKs for reducing the cost of operations which are “arithmetization-unfriendly”, such as range checks and bitwise comparisons. The idea is to encode the valid outputs of the operation in a publicly known table and then prove that parts of the SNARK witness belong to the table. Existing constructions for lookup arguments, however, are designed for tables that contain finite field elements, making them incompatible with recent post-quantum lattice-based schemes that operate over polynomial rings.
       <br><br>
       In this work we formalize lookup arguments for tables containing arbitrary ring elements. We bring attention to systematic issues that arise when translating techniques from fields to rings by showing several known lookup arguments are susceptible to algebraic attacks. We then introduce Ring-LogUp, a new lookup argument over lattice-rings. Finally, we show how to apply ring lookups to obtain a protocol for batch-verifying a sequence of updates to a RAM, where the RAM entries are arbitrary ring elements.
+    bio: >-
+      Julia Guskind is a fourth-year PhD student at Boston University advised by Mayank Varia and Leonid Reyzin. She is interested in cryptography, with a focus on verifiable computation.
     links:
       - title: "Lookup Arguments over Lattice Rings"
         url: "https://eprint.iacr.org/2026/471"
